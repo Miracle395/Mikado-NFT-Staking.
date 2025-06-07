@@ -63,7 +63,6 @@ contract MitoStaking {
 
         nft.safeTransferFrom(address(this), msg.sender, tokenId);
 
-        // Pay rewards in MITO token
         require(mitoToken.transfer(msg.sender, rewards), "MITO transfer failed");
 
         emit Unstaked(msg.sender, tokenId, block.timestamp, rewards);
