@@ -1,4 +1,4 @@
-Mikado-NFT-Staking.
+Mikado NFT Staking.
 
 Staking Contract For Mikado Hub NFT Staking, that rewards stakers with MITO.
 
@@ -11,7 +11,9 @@ Different NFT token types (bronze, silver, gold) have different reward rates.
 -> Features.
 
 Stake Mito NFTs securely.
+
 Earn rewards in MITO based on staking duration.
+
 Unstake NFTs anytime and claim accumulated rewards.
 Reward rates are customizable per NFT token type.
 
@@ -33,8 +35,11 @@ Gold: 0.833 MITO
 -> Usage.
 
 Deploy the contract with the addresses of the Mito NFT contract and MITO token contract.
+
 Call stake(tokenId) to stake your NFT.
+
 Call unstake(tokenId) to withdraw your NFT and claim rewards.
+
 Check rewards with calculateRewards(tokenId).
 
 -> Notes.
