@@ -40,5 +40,7 @@ Check rewards with calculateRewards(tokenId).
 -> Notes.
 
 Only the NFT owner can stake the NFT. 
+
 **Initial** MITO tokens are transferred as rewards on unstaking. 
+
 Make sure the contract has sufficient MITO balance to pay rewards.
