@@ -13,6 +13,8 @@ Stake Mito NFTs securely.
 Earn rewards in MITO based on staking duration.
 Unstake NFTs anytime and claim accumulated rewards.
 Reward rates are customizable per NFT token type.
+
+
 -> Contract Details.
 
 Solidity version: ^0.8.0
@@ -33,6 +35,7 @@ Deploy the contract with the addresses of the Mito NFT contract and MITO token c
 Call stake(tokenId) to stake your NFT.
 Call unstake(tokenId) to withdraw your NFT and claim rewards.
 Check rewards with calculateRewards(tokenId).
+
 -> Notes.
 
 Only the NFT owner can stake the NFT.
